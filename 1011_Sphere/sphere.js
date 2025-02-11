@@ -7,12 +7,7 @@ var lines = input.split('\n');
  * (4/3) * PI(3.14159) * R^3 (elevado a três)
  */
 
-function volumeSphere(Radius){
-    const R = parseFloat(Radius);
-    const PI = Math.PI.toFixed(5);
-    const SPHERE = (4.0/3) * PI * (R**3);
+const PI = Math.PI.toFixed(5);
+const SPHERE = (raio) => {return (4.0/3) * PI * (raio = Math.pow(raio, 3))} 
 
-    return SPHERE.toFixed(3);
-}
-
-console.log('VOLUME = '+ volumeSphere(lines));
+console.log('VOLUME = '+ SPHERE(input).toFixed(3));
