@@ -1,13 +1,19 @@
-var input = [5.0, 7.1];
-//var lines = input.split('\n');
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
 
+/**
+ * Escreva a sua solução aqui
+ * Code your solution here
+ * Escriba su solución aquí
+ */
+ 
 function calcularMedia () {
-    const VALUE_A = input[0];
-    const VALUE_B = input[1];
+    const VALUE_A = lines[0];
+    const VALUE_B = lines[1];
 
     const WEIGHT_A = 3.5;
     const WEIGHT_B = 7.5;
-
+    
     // MULTIPLIQUE VALOR * PESO = SOMA DOS PRODUTOS
     const PRODUCT_SUM = (VALUE_A * WEIGHT_A) + (VALUE_B * WEIGHT_B);
     // SOME OS PESOS = SOMA DOS PESOS
