@@ -1,6 +1,9 @@
-# Fórmulas de Área
+# desafios_beecrowd
+Desafios executados no beecrowd
 
-## 1. Retângulo
+##Fórmulas de Área
+
+### 1. Retângulo
 **Fórmula:**  
 `A = b * h`  
 
@@ -13,7 +16,7 @@ Para um retângulo com base de 10 cm e altura de 5 cm, a área é:
 
 ---
 
-## 2. Quadrado
+### 2. Quadrado
 **Fórmula:**  
 `A = l * l` (ou `A = l²`)  
 
@@ -25,7 +28,7 @@ Para um quadrado com lado de 4 cm, a área é:
 
 ---
 
-## 3. Triângulo
+### 3. Triângulo
 **Fórmula:**  
 `A = (b * h) / 2`  
 
@@ -38,7 +41,7 @@ Para um triângulo com base de 6 cm e altura de 3 cm, a área é:
 
 ---
 
-## 4. Círculo
+### 4. Círculo
 **Fórmula:**  
 `A = pi * r * r` (ou `A = pi * r²`)  
 
@@ -51,7 +54,7 @@ Para um círculo com raio de 3 cm, a área é:
 
 ---
 
-## 5. Losango
+### 5. Losango
 **Fórmulas:**  
 - Com diagonais:  
   `A = (D1 * D2) / 2`  
@@ -66,7 +69,7 @@ Para um círculo com raio de 3 cm, a área é:
 
 ---
 
-## 6. Trapézio
+### 6. Trapézio
 **Fórmula:**  
 `A = ((B + b) * h) / 2`  
 
@@ -79,7 +82,7 @@ Para um trapézio com bases de 8 cm e 4 cm e altura de 5 cm, a área é:
 
 ---
 
-## 7. Hexágono Regular
+### 7. Hexágono Regular
 **Fórmula:**  
 `A = (3 * raiz(3) * l * l) / 2`  
 
@@ -92,5 +95,5 @@ Para um hexágono com lado de 6 cm, a área é aproximadamente:
 
 ---
 
-### Observação
+#### Observação
 Sempre verifique as unidades de medida (`cm²`, `m²`, etc.) para garantir consistência nos cálculos.
