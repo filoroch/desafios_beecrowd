@@ -1,0 +1,4 @@
+[submodule "javascript"]
+	path = javascript
+	url = https://github.com/filoroch/desafios_beecrowd.git
+	branch = javascript
