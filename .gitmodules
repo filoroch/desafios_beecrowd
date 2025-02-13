@@ -1,4 +1,3 @@
-[submodule "javascript"]
-	path = javascript
-	url = https://github.com/filoroch/desafios_beecrowd.git
-	branch = javascript
+[submodule "typescript_beecrowd"]
+	path = typescript_beecrowd
+	url = https://github.com/filoroch/typescript_beecrowd.git
